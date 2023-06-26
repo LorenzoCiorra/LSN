@@ -1,10 +1,10 @@
 # Istruzioni di Funzionamento
 
-Per andare ad eseguire i codici basta compilare con 
-```bash
+Per andare ad eseguire i codici e' sufficiente compilare con 
+```
 make
 ```
 ed eseguire il codice con 
-```bash
+```
 make esegui
 ```
