@@ -6,5 +6,5 @@ make
 ```
 ed eseguire il codice con 
 ```
-make esegui
+make esegui 
 ```
