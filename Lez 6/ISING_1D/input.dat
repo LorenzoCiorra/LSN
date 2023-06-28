@@ -1,0 +1,17 @@
+0.5
+50
+1.0
+0.0
+0
+30
+20000
+0
+
+  ReadInput >> temp;
+  ReadInput >> nspin;
+  ReadInput >> J;
+  ReadInput >> h; //0.0 oppure 0.02
+  ReadInput >> metro; //1 per metro, 0 per gibbs
+  ReadInput >> nblk; //per la termalizzazione 2000 blocchi da uno step, per la simulazione 30 blocchi da 20000 passi
+  ReadInput >> nstep;
+  ReadInput >> restart; //0 no restart, 1 restart
