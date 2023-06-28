@@ -14,4 +14,8 @@ Inoltre, il comando
 ```
 make clear
 ```
-permette di cancellare tutti i file oggetto e l'eseguibile main.exe.
+permette di cancellare tutti i file oggetto e l'eseguibile main.exe, mentre
+```
+make clear_results
+```
+da' la possibilita' di pulire i risultati ottenuti, salvati nei file .out.
