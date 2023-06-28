@@ -1,0 +1,19 @@
+1
+0
+0.8
+108
+1.1
+2.2
+0.11
+60
+3000
+
+  ReadInput >> iNVET; 0=MD(NVE) 1=MC(NVT)
+  ReadInput >> restart;
+  ReadInput >> temp; //T target 0.8
+  ReadInput >> npart;
+  ReadInput >> rho;
+  ReadInput >> rcut;
+  ReadInput >> deltat/step passo montercalo;
+  ReadInput >> nblk; //Per metro e verlet 60 blocchi da 3000 steps
+  ReadInput >> nstep;

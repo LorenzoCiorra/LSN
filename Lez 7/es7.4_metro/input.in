@@ -1,0 +1,19 @@
+1
+1
+1.55
+108
+1.1
+2.2
+0.2
+60
+2000
+
+  ReadInput >> iNVET; 0=MD(NVE) 1=MC(NVT)
+  ReadInput >> restart;
+  ReadInput >> temp; //T target 0.8
+  ReadInput >> npart;
+  ReadInput >> rho;
+  ReadInput >> rcut;
+  ReadInput >> step passo montercalo(0.2): 0.205 per liquido, 0.11 per solido, 6 per gas. Aumentando il delta abbassiamo l'acceptance rate
+  ReadInput >> nblk; //Per metro e verlet 60 blocchi da 3000 steps
+  ReadInput >> nstep;
