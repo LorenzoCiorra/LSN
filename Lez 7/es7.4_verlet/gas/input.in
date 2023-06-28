@@ -1,0 +1,19 @@
+0
+1
+0.98
+108
+0.05
+5.0
+0.0005
+60
+2000
+
+  ReadInput >> iNVET; 0=MD(NVE) 1=MC(NVT)
+  ReadInput >> restart;
+  ReadInput >> temp; //T target 1.2
+  ReadInput >> npart;
+  ReadInput >> rho;
+  ReadInput >> rcut;
+  ReadInput >> deltat/step passo montercalo;
+  ReadInput >> nblk; //default 20 con 2000 steps. Per l'equilibrizzazione della t invece 30000 blocchi da uno step (50000 per il gas)
+  ReadInput >> nstep;

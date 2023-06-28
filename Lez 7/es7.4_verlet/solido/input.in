@@ -1,0 +1,19 @@
+0
+1
+1.55
+108
+1.1
+2.2
+0.0005
+60
+3000
+
+  ReadInput >> iNVET; 0=MD(NVE) 1=MC(NVT)
+  ReadInput >> restart;
+  ReadInput >> temp; //T target 0.8
+  ReadInput >> npart;
+  ReadInput >> rho;
+  ReadInput >> rcut;
+  ReadInput >> deltat/step passo montercalo;
+  ReadInput >> nblk; 
+  ReadInput >> nstep;
