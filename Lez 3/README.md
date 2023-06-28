@@ -8,3 +8,10 @@ ed eseguire il codice con
 ```
 make esegui 
 ```
+
+\
+Inoltre, il comando 
+```
+make clear
+```
+permette di cancellare tutti i file oggetto e l'eseguibile main.exe.
