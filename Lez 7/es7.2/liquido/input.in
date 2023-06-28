@@ -1,0 +1,19 @@
+1
+0
+1.1
+108
+0.8
+2.5
+0.21
+500000
+1
+
+  ReadInput >> iNVET; 0=MD(NVE) 1=MC(NVT)
+  ReadInput >> restart;
+  ReadInput >> temp; //T target 1.1
+  ReadInput >> npart;
+  ReadInput >> rho;
+  ReadInput >> rcut;
+  ReadInput >> deltat/step passo montercalo; //0.21 per liquido
+  ReadInput >> nblk; //Per l'equilibrizzazione 5000 blocchi da uno step
+  ReadInput >> nstep;
