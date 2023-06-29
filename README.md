@@ -1,5 +1,4 @@
-# Laboratorio di Simulazione Numerica ![Logo_Università_degli_Studi_di_Milano svg](https://github.com/LorenzoCiorra/LSN/assets/127133704/082d0b18-1552-4674-976d-64991a4ceb6a)
-
+# Laboratorio di Simulazione Numerica
 
 Questa repository contiene tutti gli esercizi, con relativo notebook illustrativo, svolti nel Laboratorio di Simulazione Numerica edizione 2022-2023 tenuto dal Prof. Davide Galli presso la facolta' di Fisica dell'Universita' degli Studi di Milano.
 
