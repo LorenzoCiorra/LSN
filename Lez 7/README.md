@@ -15,6 +15,8 @@ Una volta eseguito il codice in questo modo, il codice chiedera' due input da ta
 - il primo per sollecitare l'utente al controllo della pulizia degli output precedenti;
 - il secondo per chiedere di inserire nuovamente la fase da voler simulare: in questo modo il codice leggera' il file di input corretto, quello presente nella cartella associata alla fase scelta, e sapra' in che cartella mettere i risultati.
 
+Per scegliere quale algoritmo verra' usato per svolgere la simulazione, invece, e' necessario modificare il file input.in: in particolare la prima riga presentera' un 1 se si sceglie l'algoritmo di Metropolis, 0 se quello di Verlet.
+
 \
 Inoltre, il comando 
 ```
