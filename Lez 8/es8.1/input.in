@@ -1,0 +1,15 @@
+0.766267
+-0.610944
+1.0
+5
+100
+100000
+
+
+
+  ReadInput >> mu
+  ReadInput >> sigma
+  ReadInput >> x0 //starting point for the metropolis
+  ReadInput >> L //width of the simulation box to define the step for the metropolis
+  ReadInput >> nblk; 
+  ReadInput >> n_tot of throws; //100000

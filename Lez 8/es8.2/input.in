@@ -1,0 +1,32 @@
+0.8
+0.6
+1.0
+5
+100
+100000
+1
+10.0
+100
+2000
+1
+1
+
+
+
+
+  ReadInput >> mu //0.8, 0.6
+  ReadInput >> sigma
+  ReadInput >> x0 //starting point for the metropolis
+  ReadInput >> L //box dimension for the step of the metropolis
+  ReadInput >> nblk; 
+  ReadInput >> n_tot of throws;
+
+//simulated annealing parameters
+  ReadInput >> beta; //starting beta
+  ReadInput >> delta_beta; //after each sa step the new beta is the old beta+delta_beta
+  ReadInput >> beta_steps; //steps at each fixed beta
+  ReadInput >> beta_max //we update beta adding delta_beta until we reach beta_max
+  ReadInput >> L_mu //step for sampling the estimation of mu
+  ReadInput >> L_sigma
+
+
