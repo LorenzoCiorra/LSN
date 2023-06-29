@@ -1,11 +1,12 @@
 # Laboratorio di Simulazione Numerica
 
-Questa repository contiene le soluzioni degli esercizi per il corso di Laboratorio di Simulazione Numerica dell'anno accademico 2018-2019 all'Università degli Studi di Milano. 
+Questa repository contiene tutti gli esercizi, con relativo notebook illustrativo, svolti nel Laboratorio di Simulazione Numerica edizione 2022-2023 tenuto dal Prof. Davide Galli presso la facolta' di Fisica dell'Universita' degli Studi di Milano.
 
-In ogni cartella si trovano
+Ogni cartella e' associata alla corrispondente lezione e contiene:
+- Jupyter notebook per spiegare i risultati ottenuti e illustrarli attraverso specchietti phyton;
+- Codici sorgente scritti in C++ per la risoluzione delle esercitazioni, corredati di commenti per una piu' semplice comprensione;
+- Output files, con estensioni .out o .dat, contenenti i risultati numerici degli esercizi necessari per creare plot dei risultati;
+- Makefile per compilare ed eseguire i codici;
+- Cartella `randomgen` contenente i codici necessari per il corretto funzionamento del generatore di numeri pseudocasuali.
 
-dei file sorgente in C++ con un makefile per compilarli,
-un notebook di jupyter per presentare i risultati con Python,
-i file di input usati per generare i risultati nei notebook,
-i file di output generati dai programmi e necessari per i grafici.
-Salvo diverse istruzioni riportate nei singoli notebook, per riprodurre i risultati di ciascun esercizio è sufficiente seguire le istruzioni riportate nei vari readme presenti nelle cartelle
+In ogni cartella, inoltre, e' presente un file README.MD che riporta le istruzioni da seguire per riprodurre i risultati di ogni esercitazione.
