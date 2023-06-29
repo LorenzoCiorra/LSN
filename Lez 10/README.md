@@ -6,14 +6,13 @@ make
 ```
 ed eseguire il codice esplicitando la fase di interesse con 
 ```
-make esegui_&fase&
+make esegui_&borders_situation&
 ```
-rimpiazzando &fase& con solido, liquido o gas.
-In questo modo, il makefile prima di eseguire il codice automaticamente pulira' i risultati della simulazione precedente riguardanti quella fase. Pulire gli output prima di far ripartire una simulazione e' necessario visto che i file verranno aperti in append e, quindi, se non si pulissero i file di output conterrebbero misure di simulazioni differenti.
+rimpiazzando &borders_situation& con open o closed a seconda che si voglia fare una simulazione in cui le migraziani tra continenti sono permesse oppure no.
+In questo modo, il makefile prima di eseguire il codice automaticamente pulira' i risultati della simulazione precedente riguardanti quella fase. Pulire gli output prima di far ripartire una simulazione e' necessario visto che i file verranno aperti in append e, quindi, se non si pulissero i file di output conterrebbero misure di simulazioni differenti. \
+Inoltre, nel makefile sotto la voce `esegui` e' possibile modificare il numero di core da usare nella simulazione.
 
-Una volta eseguito il codice in questo modo, il codice chiedera' due input da tastiera:
-- il primo per sollecitare l'utente al controllo della pulizia degli output precedenti;
-- il secondo per chiedere di inserire nuovamente la fase da voler simulare: in questo modo il codice leggera' il file di input corretto, quello presente nella cartella associata alla fase scelta, e sapra' in che cartella mettere i risultati.
+Una volta eseguito il codice in questo modo, il codice richiedera', attraverso input da tastiera,  se si vuole eseguire una simulazione con migrazioni o senza: in questo modo sapra' se permettere le migrazioni o no.
 
 \
 Inoltre, il comando 
