@@ -1,4 +1,4 @@
-# Istruzioni di Funzionamento 
+# Istruzioni di Funzionamento  
 
 Per andare ad eseguire i codici e' necessario compilare con  
 ```
